@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url('wedding_photo.jpg');
+}
+
+h1{
+    color: white;
+    display: inline-block;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: relative;
+    right: -185px;
+}
+
+.list{
+    
+    position: relative;
+    display: inline-flex;
+    right: -320px;
+    font-size: 28px;
+
+}
+
+.list li a{
+    color: white;
+    text-decoration: none;
+}
+.list li{
+    margin: 18px 58px;
+    list-style: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.list li a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    color: grey;
+}
+
+.container{
+    border: 2px solid white;
+    width: 404px;
+    margin: 197px 390px;
+    height: 172px;
+    border-radius: 52px;
+}
+.container h1{
+    font-family: 'Caveat', cursive;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn{
+    text-align: center;
+    margin: 35px 136px;
+    width: 143px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container h3{
+    text-decoration: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width:250px) and (max-width:300px){
+    h1{
+        position: relative;
+        right: -61px;
+        font-size: 20px;
+    }
+    .list{
+        position: relative;
+        display: block;
+        right: -32px;
+        font-size: 22px;
+    }
+    .container{
+        width: 232px;
+        margin: 41px 5px;
+        height: 174px;
+    }
+    .container h3{
+        font-size: 17px;
+    }
+    .btn{
+        margin: 35px 44px;
+        width: 147px;
+        height: 26px;
+    }
+    
+}
+
+@media screen and (min-width:650px) and (max-width:700px) {
+    h1{
+        position: relative;
+        right: -4px;
+        font-size: 23px;
+    }
+    .list{
+        position: relative;
+        display: inline-flex;
+        right: -160px;
+        font-size: 19px;
+        top: -53px;
+    }
+
+    .list li{
+        margin: 18px 21px;
+    }
+
+    .list li a:hover{
+        font-size: 20px;
+    }
+    .container{
+        width: 404px;
+        margin: 77px 119px;
+        height: 282px;
+
+    }
+    .container h1{
+        position: relative;
+        right: -184px;
+        font-size: 27px;
+        top: 16px;
+    }
+    h3{
+        font-size: 24px;
+        margin: 26px 0px;
+    }
+    
+}
